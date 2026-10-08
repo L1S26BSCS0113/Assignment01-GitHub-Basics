@@ -20,6 +20,9 @@ int main() {
 	}
 	cout << "Sum of first " << number << " Natural Numbers is: " << sum << endl;
 
+	// Method 2: verify using the formula n(n+1)/2
+	int sumFormula = number * (number + 1) / 2;
+	cout << "Sum using formula n ( n + 1 ) / 2: " << sumFormula << endl;
 
 	return 0;
 }
