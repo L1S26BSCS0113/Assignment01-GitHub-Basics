@@ -1,3 +1,9 @@
+/*
+ * Program    : Sum of First 50 Natural Numbers
+ * Name       : Ali Murtaza
+ * Reg No     : L1S26BSCS0113
+ * Assignment : 01 - Getting Started with GitHub
+ */
 
 
 
@@ -13,6 +19,7 @@ int main() {
 		sum = sum + i;
 	}
 	cout << "Sum of first " << number << " Natural Numbers is: " << sum << endl;
+
 
 	return 0;
 }
